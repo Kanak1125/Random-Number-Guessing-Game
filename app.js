@@ -53,7 +53,7 @@ function gameOver() {
 }
 
 function checkProximity(num) {
-    if((randomNum - 5) < num && num <= (randomNum + 5)) proximityText.textContent = "Previous Guess was too near!"; // numbers from ((randomNumber - 5) + 1) to (randomNumber + 5) is considered to be in the near proximity...
+    if((randomNum - 5) < num && num <= (randomNum + 5)) proximityText.textContent = "Previous Guess was too near!"; // numbers from ((randomNumber - 5) + 1) to (randomNumber + 5) is considered to be in the proximity...
     else {
         proximityText.textContent = "Previous Guess was too far!";
     }
