@@ -1,2 +1,2 @@
-# Random-Guessing-Game
-Simple Random Guessing Game
+# Random-Number-Guessing-Game
+Simple Random Number Guessing Game
