@@ -9,7 +9,7 @@ const randNumContainer = document.querySelector('.random-number-container');
 const randNum = document.querySelector('.random-number');
 let previousGuesses = [];
 
-const randomNum = Math.ceil(Math.random() * 48) + 1;    // random numbers will be generated between 1 and 50(i.e. excluding 1 and 50)...
+const randomNum = Math.ceil(Math.random() * 28) + 1;    // random numbers will be generated between 1 and 50(i.e. excluding 1 and 50)...
 let count = 0;
 
 const handleSubmit = () => {
