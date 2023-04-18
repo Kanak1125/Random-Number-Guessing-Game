@@ -5,6 +5,8 @@ const previousGuessContainer = document.querySelector('.previous-guess');
 const message = document.querySelector('.msg');
 const proximityText = document.querySelector('.proximity');
 const startNewBtn = document.querySelector('.start-new-btn');
+const randNumContainer = document.querySelector('.random-number-container');
+const randNum = document.querySelector('.random-number');
 let previousGuesses = [];
 
 const randomNum = Math.ceil(Math.random() * 48) + 1;    // random numbers will be generated between 1 and 50(i.e. excluding 1 and 50)...
@@ -50,6 +52,8 @@ function gameOver() {
     submitBtn.style.cursor = 'not-allowed';
     message.textContent = "Game Over buddy!";
     startNewBtn.style.display = 'block';
+    randNumContainer.style.display = 'block';
+    randNum.textContent = randomNum;
 }
 
 function checkProximity(num) {
